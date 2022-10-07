@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description " content="Projektni zadatak">
+
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="title">
+        <br>
+        <h1 align="center" style="font-size: 50px">REGISTRACIJA</h1>
+        <p align="center" style="font-size: 25px"> Molim vas ispunite formu kako biste se registrovali</p>
+        <div class="back">
+            <a href="index.html" class="back">BACK</a>
+        </div>
+    </div>
+
+    <div class="formadiv">
+        <div class="forma">
+            <form method="get">
+                Ime: <br>
+                <input type="text" required name="ime"><br>
+                Prezime: <br>
+                <input type="text" required name="prezime"><br>
+                E-mail:<br>
+                <input type="email" required name="email"><br>
+                Šifra: <br>
+                <input type="password" min="6" max="18" required name="šifra"><br>
+                Broj telefona: <br>
+                <input type="text" required name="broj"><br>
+                Datum rođenja:<br>
+                <input type="date" required name="datum"><br><br>
+                Spol:<br>
+                <input type="radio" name="gender" value="Muško">Muško<br>
+                <input type="radio" name="gender" value="žensko">Žensko<br><br>
+                Gradovi koje biste željeli posjetiti: <br>
+                <input type="checkbox" name="Sarajevo">Sarajevo<br>
+                <input type="checkbox" name="Tuzla">Tuzla<br>
+                <input type="checkbox" name="Banja Luka">Banja Luka<br>
+                <input type="checkbox" name="Travnik">Travnik<br>
+                <input type="checkbox" name="Zenica">Zenica<br>
+                <input type="checkbox" name="Goražde">Goražde<br><br>
+                Grad u kojem stanujete: <br><br>
+                <select name="gradovi">
+                    <option value="Sa">Sarajevo</option>
+                    <option value="Tu">Tuzla</option>
+                    <option value="Ba">Banja Luka</option>
+                    <option value="Tr">Travnik</option>
+                    <option value="Ze">Zenica</option>
+                    <option value="Go">Goražde</option>
+                    <option value="Dr">Drugo</option>
+                    <br>
+                </select><br>
+                <button type="submit" class="button">Submit</button>
+                <button type="reset" class="button">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
